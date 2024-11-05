@@ -37,11 +37,11 @@ export default defineNuxtConfig({
     // 参考文档：https://nuxt.com/docs/getting-started/prerendering#selective-pre-rendering
     prerender: {
       // 允许网站爬取
-      crawlLinks: false,
-      // 生效规则
-      // routes: [
-      //   "/robots.txt" // 生成利于搜索引擎爬取的规则文件
-      // ],
+      crawlLinks: true,
+      // ssr静态页面生效规则
+      routes: [
+        "/robots.txt" // 生成利于搜索引擎爬取的规则文件
+      ],
       // 忽略规则
       // ignore: ['/user'],
     },
