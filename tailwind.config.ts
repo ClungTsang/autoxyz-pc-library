@@ -46,11 +46,13 @@ export default <Partial<Config>>{
         first: "40px",
         two: "20px",
         base: "10px",
+        tips: "4px",
       },
       margin: {
         first: "40px",
         two: "20px",
         base: "10px",
+        tips: "4px",
       },
       gap: {
         first: "40px",
